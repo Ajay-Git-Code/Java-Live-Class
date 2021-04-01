@@ -2,7 +2,7 @@ class SwitchBool
 {
 	public static void main(String[]args)
 	{
-		boolean a = true;
+		int a = 1;
 		
 		switch(a)
 		{
