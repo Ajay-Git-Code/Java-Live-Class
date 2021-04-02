@@ -1,0 +1,40 @@
+1.What are command line arguments and explain the working of them?
+	=>
+	
+2.How to convert a numeric String into an integer?
+	=>Integer.parseInt(args[0]);//args[0] = 9
+	
+3.Explain working of all parse methods?
+	=>parse methods static type methods hai aur 
+		usko kam karne ke liye class name chahiye.
+
+4.Explain Scanner class and all its nextXXX() methods?
+	=>Scanner class ka object user se input lene may help karta hai next methods ki help se.
+		jitne data type hai utne next methods hai sirf CHAR ko chor ke. aur do extra next methods diye gaye hai.
+		next();- word input ke liye.
+		nextLine();- multiWords lene ke liye;
+		nextInt(),nextFloat(),nextByte(),nextShort(),nextDouble(),nextLong(),nextBoolean()
+		
+5.Why nextChar() method is not available in class Scanner?
+	=> String class may CHAR may convert karne ka method hai.
+	
+6.What is packages in java?
+	=> packages ke under classes define rahte hai.
+	
+7.Explain Benefits of packages over header files?
+	=> header files may declaration hota tha./packages may class define rahata hai
+	header files may se particular function ko apne program may add nahi kar sakte/ java may particular class ko apne program may add kar sakte hai.
+	
+8.Explain NumberFormatException and the situation when it will arise?
+	=> NumberFormatException ek class hai.
+	jitne parse methods hai oh sab NumberFormatException arise karte hai. agr unke hisab se data nahi aaya.
+		agr parseInt() ko agrument pass kar rahe hai to numeric string hona chahiye nahi to exception arise ho jayegi
+		
+9.Explain InputMismatchException and the situation when it will arise?
+	=> InputMismatchException ek class hai.
+	ye exception Scanner function deta hai agr uske next method ko proper type input nahi hoga to.
+	
+10.Explain ArrayIndexOutOfBoundsException and the situation when it will arise?
+	=> ArrayIndexOutOfBoundsException ek class hai.
+	agr command line ki input se jada variable ko access karne se aati hai ArrayIndexOutOfBoundsException .
+	command line may 2 input diye hai aur args[2] ko agr access kare to aayegi exception.
