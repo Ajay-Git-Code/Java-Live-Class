@@ -4,7 +4,9 @@ class ArrayDemo
 {	
 	public static void main(String []args)
 	{
-		int [] arr = new int [5];
+		int [][] arr = new int [3][];
+		System.out.println(arr[0]);
+		/*
 		Scanner s = new Scanner (System.in);
 		System.out.println("Enter 5 no");
 		
@@ -17,5 +19,6 @@ class ArrayDemo
 		{
 			System.out.println("Index "+i+" value is "+arr[i]);
 		}
+		*/
 	}
 }
