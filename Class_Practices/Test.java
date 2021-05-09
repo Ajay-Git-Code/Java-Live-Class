@@ -1,14 +1,11 @@
-
-
 public class Test
 {
 	public static void main(String []args)
 	{
-		//int []arr = new int [5];
-		//Integer i = new Integer (521);
-		
-				
-		System.out.println();
+		int x = 10;
+		int y = 20;
+		System.out.println(x+y);
+		//System.out.println(y);
 	}
 }
 

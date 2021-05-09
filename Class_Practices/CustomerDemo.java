@@ -8,11 +8,11 @@ class Customer
 	private double rate = 5.2;
 	private double interest;
 	
-	public Customer(int a ,String n,int b)
+	public Customer(int account ,String name, int bal)
 	{
-		account = a;
-		name = n;
-		bal = b;
+		this.account = account;
+		this.name = name;
+		this.bal = bal;
 	}
 	
 	public void calculate ()
@@ -40,11 +40,11 @@ public class CustomerDemo
 		for( int i = 0;i<arr.length;i++)
 		{
 			System.out.println("Enter account no, name, bal");
-			int x = s.nextInt();
+			int account = s.nextInt();
 			s.nextLine(); // clear input buffer after 1st input
-			String str = s.nextLine();
-			int y = s.nextInt();
-			//arr[i] = new Customer(x,str,y);
+			String name = s.nextLine();
+			int bal = s.nextInt();
+			arr[i] = new Customer(account,name,bal);
 		}
 		//object interest calculate
 		for(Customer c :arr)
