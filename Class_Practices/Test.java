@@ -4,11 +4,18 @@ public class Test
 {
 	public static void main(String []args)
 	{
-		//int []arr = new int [5];
-		//Integer i = new Integer (521);
-		
+		outter:for( int a = 1;a<3;a++)
+		{
+			System.out.println("a"+a);
+			inner:for(int b = 1;b<2;b++)
+			{
+				System.out.println("b"+b);
+			}
+			if(a == 1)
+				continue inner;
+		}
 				
-		System.out.println();
+		//System.out.println(a);
 	}
 }
 
