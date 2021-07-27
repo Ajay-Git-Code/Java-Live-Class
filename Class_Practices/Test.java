@@ -1,9 +1,8 @@
-
-
 public class Test
 {
 	public static void main(String []args)
 	{
+<<<<<<< HEAD
 		outter:for( int a = 1;a<3;a++)
 		{
 			System.out.println("a"+a);
@@ -16,6 +15,12 @@ public class Test
 		}
 				
 		//System.out.println(a);
+=======
+		int x = 10;
+		int y = 20;
+		System.out.println(x+y);
+		//System.out.println(y);
+>>>>>>> a74da064ebc615d7e5525d58ddfd323cf21ab39e
 	}
 }
 
